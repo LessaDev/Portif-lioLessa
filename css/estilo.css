@@ -19,7 +19,7 @@ body{
 }
 
 #container-conteudo{
-  margin-top: 17%;
+  margin-top: 15%;
 }
 
 .cor-button{
@@ -30,4 +30,18 @@ body{
 #parceiros{
   min-width: 800px;
   max-width: 1200px;
+}
+#DevFullStack{
+font-size: 20px;
+/* color: #fff !important; */
+}
+#redesSocias{
+ padding: 0 !important;
+}
+#redesSocias li{
+  display:inline-block;
+}
+.imgRedesSocias{
+  width: 20px;
+  width: 20px;
 }
