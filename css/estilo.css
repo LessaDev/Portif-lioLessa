@@ -1,0 +1,50 @@
+/* body{
+  background-image: url("img/FundoSpot.jpg");
+  background-attachment:fixed;
+  background-size: auto;
+  background-repeat: no-repeat;
+
+pelo html foi!?
+
+} */
+#MinhaFoto{
+  border-radius: 200px;
+  width: 200px;
+  height: 200px;
+  background-position: center;
+
+}
+
+#container-marketing{
+  margin-top: 15%;
+}
+
+#TxtTitulo{
+  margin-bottom: 55px;
+}
+
+.alinhamento-central{
+  text-align: center;
+}
+
+#alinhamento-img{
+  padding-bottom: 15px;
+  margin-top: 15px;
+}
+
+.cor-button{
+  background-color: ##366387;
+  border: 1px solid #FFF;
+}
+
+#Portifólio-img{
+  width: 110%;
+
+}
+#img-circle{
+    border-radius: 200px;
+    width: 250px;
+    height: 250px;
+    background-position: center;
+
+}
