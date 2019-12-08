@@ -5,11 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="shortcut icon" href="icon.ico">
     <title>Lembrei</title>
+
+    <!-- CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="css/estilo.css">
+
+    <!-- JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
   </head>
   <body>
-      <nav id="NavBar" class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+      <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light" id="NavBar">
         <a class="navbar-brand" href="#">
           <img src="/docs/4.1/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="">
           Lessa
@@ -27,116 +34,102 @@
         </div>
       </nav>
 
-      <div id="container-marketing" class="container marketing">
-        <div id="DivQuemSouEu"class="row">
-         <div class="col-lg-12">
-           <div class="alinhamento-central">
-             <img id="MinhaFoto" class="featurette-image img-fluid mx-auto" src="img/teste.jpg" alt="Generic placeholder image">
-           </div>
-           <h2 class="alinhamento-central">Quem sou eu!?</h2>
-            <br>
-            <p class="alinhamento-central">Instrutor de Informática, Designer Gráfico, Aspirante a programador, de 19 anos entusiasta de boa músca, comédias carros
-             e natureza, em busca do foda-se perdido. </p>
-            <br>
-            <p class="alinhamento-central"><a class="cor-button btn btn-secondary" href="#" role="button">Saiba mais do que estou em busca. &raquo;</a></p>
-          </div>
-        </div>
-        <br>
-        <br>
-        <div id="Portifólio" class="row">
-          <div class="col-lg-12">
-            <h2 class="alinhamento-central">Meu Portifólio</h2>
-            <br>
-            <p class="alinhamento-central">Este Portifólio traz alguns de meus trabalhos ligados a parte de Design Gráfico. </p>
-          </div>
-          </div>
-         <br>
-         <br>
-         <div class="row">
-           <div class="col-lg-3">
-               <img id="Portifólio-img" src="img/teste.jpg" alt="Generic placeholder image" width="140" height="140">
-           </div>
-           <div class="col-lg-3">
-               <img id="Portifólio-img" src="img/teste.jpg" alt="Generic placeholder image" width="140" height="140">
-           </div>
-           <div class="col-lg-3">
-               <img id="Portifólio-img" src="img/teste.jpg" al  t="Generic placeholder image" width="140" height="140">
-           </div>
-           <div class="col-lg-3">
-               <img id="Portifólio-img" src="img/teste.jpg" al  t="Generic placeholder image" width="140" height="140">
-           </div>
-         </div>
-         <div style="margin-top:5px" class="row">
-           <div class="col-lg-3">
-               <img id="Portifólio-img" src="img/teste.jpg" alt="Generic placeholder image" width="140" height="140">
-           </div>
-           <div class="col-lg-3">
-               <img id="Portifólio-img" src="img/teste.jpg" alt="Generic placeholder image" width="140" height="140">
-           </div>
-           <div class="col-lg-3">
-               <img id="Portifólio-img" src="img/teste.jpg" al  t="Generic placeholder image" width="140" height="140">
-           </div>
-           <div class="col-lg-3">
-               <img id="Portifólio-img" src="img/teste.jpg" al  t="Generic placeholder image" width="140" height="140">
-           </div>
-         </div>
-         <br>
-         <br>
-         <br>
-         <h1 class="alinhamento-central"> Parceiros </h1>
-         <br>
-         <br>
-          <div class="row featurette">
-          <div class="col-md-7">
-            <h2 class="featurette-heading">Kelvin<span class="text-muted">Gonçalves.</span></h2>
+      <div class="container" id="container-marketing">
+            <!-- Div quem sou eu-->
+            <div class="row mb-4 text-center" id="DivQuemSouEu">
+                  <div class="col-md-12">
+                      <img class="featurette-image mx-auto mb-5 d-block"  src="img/teste.jpg" alt="Minha foto perfil" id="MinhaFoto">
+                      <h2 class="mb-3">Quem sou eu!?</h2>
+                      <p class="mb-5">
+                        Instrutor de Informática, Designer Gráfico, Aspirante a programador, de 19 anos entusiasta de boa músca, comédias carros
+                        e natureza, em busca do foda-se perdido.
+                      </p>
+                      <p class="mb-4"><a class="cor-button btn btn-secondary" href="#" role="button">Saiba mais do que estou em busca. &raquo;</a></p>
+                  </div>
+            </div>
+            <!-- Div Portifólio-->
+            <div class="row text-center mb-4" id="Portifolio">
+                  <div class="col-md-12">
+                      <h2 class="mb-4">Meu Portifólio</h2>
+                      <p class="alinhamento-central">Este Portifólio traz alguns de meus trabalhos ligados a parte de Design Gráfico. </p>
+                  </div>
+            </div>
+            <!-- Div Portifólio 1º Linha-->
+            <div class="row">
+              <div class="col-md-3 col-sm-12 mb-3">
+                  <img class="img-fluid" id="Portifólio-img" src="img/teste.jpg" alt="Generic placeholder image">
+              </div>
+              <div class="col-md-3 col-sm-12 mb-3">
+                  <img class="img-fluid" id="Portifólio-img" src="img/teste.jpg" alt="Generic placeholder image">
+              </div>
+              <div class="col-md-3 col-sm-12 mb-3">
+                  <img class="img-fluid" id="Portifólio-img" src="img/teste.jpg" alt="Generic placeholder image">
+              </div>
+              <div class="col-md-3 col-sm-12 mb-3">
+                  <img class="img-fluid" id="Portifólio-img" src="img/teste.jpg" alt="Generic placeholder image">
+              </div>
+            </div>
+            <!-- Div Portifólio 2º Linha-->
+            <div class="row">
+              <div class="col-md-3 col-sm-12 mb-3">
+                <img class="img-fluid" id="Portifólio-img" src="img/teste.jpg" alt="Generic placeholder image">
+              </div>
+              <div class="col-md-3 col-sm-12 mb-3">
+                <img class="img-fluid" id="Portifólio-img" src="img/teste.jpg" alt="Generic placeholder image">
+              </div>
+              <div class="col-md-3 col-sm-12 mb-3">
+                <img class="img-fluid" id="Portifólio-img" src="img/teste.jpg" alt="Generic placeholder image">
+              </div>
+              <div class="col-md-3 col-sm-12 mb-3">
+                <img class="img-fluid" id="Portifólio-img" src="img/teste.jpg" alt="Generic placeholder image">
+              </div>
+            </div>
             <br>
             <br>
-            <p class="lead-whi">Além de ter sido meu professor de Web Design, e de Design Gráfico, foi o cara que me fez
-            sair da loja de açaí onde trabalhava, me chamando (intimando, caçando, ameaçando,) e me fazendo aceitar por
-            livre  e espontenea pressão a trabalhar coordenação pedagógica como estagiário me ensinando muita coisa escola
-            onde dou aula e faço o suporte técnico atualmente. Atuamente trabalhamos juntos em projetos para desenvolvimento
-            de sites.</p>
-          </div>
-          <div class="col-md-5">
-            <img id="img-circle" class="featurette-image img-fluid mx-auto" src="img/kelvin.jpeg" alt="Generic placeholder image">
-          </div>
-        </div>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <div class="row featurette">
-          <div class="col-md-5">
-            <img id="img-circle" class="featurette-image img-fluid mx-auto" src="img/hermano.png" alt="Generic placeholder image">
-          </div>
-          <div class="col-md-7">
-            <h2 class="featurette-heading">Hermano<span class="text-muted">Lessa.</span></h2>
+            <br>
+            <h1 class="alinhamento-central"> Parceiros </h1>
             <br>
             <br>
-            <p class="lead-whi">Meu irmão e primeiro mentor na arera da Informática, foi a pessoa que me fez entender a grande gambiarra,
-            e a infinidade de coisas que podemos criar nessa area tão abrangente. Hoje compartilhamos clientes tanto para area de montagem
-            e manutenção de computadores e também trabalhos Design Gráfico.</p>
-          </div>
-        </div>
-        <br>
-        <br>
-        <br>
-        <br>
-        <h1 class="alinhamento-central">Currículo</h1>
-        <br>
-        <embed src="clockblue.pdf" width="760" height="1105" type='application/pdf'>
-
-
-
-
-
-
-
-
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+              <div class="row featurette">
+              <div class="col-md-7">
+                <h2 class="featurette-heading">Kelvin<span class="text-muted">Gonçalves.</span></h2>
+                <br>
+                <br>
+                <p class="lead-whi">Além de ter sido meu professor de Web Design, e de Design Gráfico, foi o cara que me fez
+                sair da loja de açaí onde trabalhava, me chamando (intimando, caçando, ameaçando,) e me fazendo aceitar por
+                livre  e espontenea pressão a trabalhar coordenação pedagógica como estagiário me ensinando muita coisa escola
+                onde dou aula e faço o suporte técnico atualmente. Atuamente trabalhamos juntos em projetos para desenvolvimento
+                de sites.</p>
+              </div>
+              <div class="col-md-5">
+                <img id="img-circle" class="featurette-image img-fluid mx-auto" src="img/kelvin.jpeg" alt="Generic placeholder image">
+              </div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class="row featurette">
+              <div class="col-md-5">
+                <img id="img-circle" class="featurette-image img-fluid mx-auto" src="img/hermano.png" alt="Generic placeholder image">
+              </div>
+              <div class="col-md-7">
+                <h2 class="featurette-heading">Hermano<span class="text-muted">Lessa.</span></h2>
+                <br>
+                <br>
+                <p class="lead-whi">Meu irmão e primeiro mentor na arera da Informática, foi a pessoa que me fez entender a grande gambiarra,
+                e a infinidade de coisas que podemos criar nessa area tão abrangente. Hoje compartilhamos clientes tanto para area de montagem
+                e manutenção de computadores e também trabalhos Design Gráfico.</p>
+              </div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h1 class="alinhamento-central">Currículo</h1>
+            <br>
+            <embed src="clockblue.pdf" width="760" height="1105" type='application/pdf'>
+      </div>
   </body>
 </html>
