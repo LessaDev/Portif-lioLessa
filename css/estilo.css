@@ -48,3 +48,17 @@ pelo html foi!?
     background-position: center;
 
 }
+
+body{
+  background-image: url("../img/FundoSpot.jpg");
+  min-height: 500px;
+  background-size: contain;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+#Minhafoto{
+  background-image: url("../img/teste.jpg");
+  background-size: cover;
+}
