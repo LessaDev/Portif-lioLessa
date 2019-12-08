@@ -16,7 +16,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
   </head>
   <body>
-      <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light" id="NavBar">
+      <nav class="navbar fixed-top navbar-expand-lg  navbar-light bg-light" id="NavBar">
         <a class="navbar-brand" href="#">
           <img src="/docs/4.1/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="">
           Lessa
@@ -34,13 +34,13 @@
         </div>
       </nav>
 
-      <div class="container" id="container-marketing">
+      <div class="container" id="container-conteudo">
             <!-- Div quem sou eu-->
             <div class="row mb-4 text-center" id="DivQuemSouEu">
                   <div class="col-md-12">
-                      <img class="featurette-image mx-auto mb-5 d-block"  src="img/teste.jpg" alt="Minha foto perfil" id="MinhaFoto">
+                      <img class="img-circle featurette-image mx-auto mb-5 d-block"  src="img/teste.jpg" alt="Minha foto perfil" id="MinhaFoto">
                       <h2 class="mb-3">Quem sou eu!?</h2>
-                      <p class="mb-5">
+                      <p class="mb-2">
                         Instrutor de Informática, Designer Gráfico, Aspirante a programador, de 19 anos entusiasta de boa músca, comédias carros
                         e natureza, em busca do foda-se perdido.
                       </p>
@@ -70,7 +70,7 @@
               </div>
             </div>
             <!-- Div Portifólio 2º Linha-->
-            <div class="row">
+            <div class="row mb-3">
               <div class="col-md-3 col-sm-12 mb-3">
                 <img class="img-fluid" id="Portifólio-img" src="img/teste.jpg" alt="Generic placeholder image">
               </div>
@@ -80,56 +80,48 @@
               <div class="col-md-3 col-sm-12 mb-3">
                 <img class="img-fluid" id="Portifólio-img" src="img/teste.jpg" alt="Generic placeholder image">
               </div>
-              <div class="col-md-3 col-sm-12 mb-3">
+              <div class="col-md-3 col-sm-12 mb-5">
                 <img class="img-fluid" id="Portifólio-img" src="img/teste.jpg" alt="Generic placeholder image">
               </div>
             </div>
-            <br>
-            <br>
-            <br>
-            <h1 class="alinhamento-central"> Parceiros </h1>
-            <br>
-            <br>
-              <div class="row featurette">
-              <div class="col-md-7">
-                <h2 class="featurette-heading">Kelvin<span class="text-muted">Gonçalves.</span></h2>
-                <br>
-                <br>
-                <p class="lead-whi">Além de ter sido meu professor de Web Design, e de Design Gráfico, foi o cara que me fez
-                sair da loja de açaí onde trabalhava, me chamando (intimando, caçando, ameaçando,) e me fazendo aceitar por
-                livre  e espontenea pressão a trabalhar coordenação pedagógica como estagiário me ensinando muita coisa escola
-                onde dou aula e faço o suporte técnico atualmente. Atuamente trabalhamos juntos em projetos para desenvolvimento
-                de sites.</p>
+            <!-- Seção Parceiros-->
+            <section class="container-fluid" id="parceiros">
+              <h1 class="text-center mb-5"> Parceiros </h1>
+              <!-- Div Parceiros Kelvin-->
+              <div class="row featurette mb-5 justify-content-md-center">
+                <div class="col-md-7">
+                  <h2 class="text-center featurette-heading mb-5">Kelvin<span class="text-muted">Gonçalves.</span></h2>
+                  <p class=" text-center lead-whi mb-4">Além de ter sido meu professor de Web Design, e de Design Gráfico, foi o cara
+                    que me fez
+                    sair da loja de açaí onde trabalhava, me chamando (intimando, caçando, ameaçando,) e me fazendo aceitar por
+                    livre e espontenea pressão a trabalhar coordenação pedagógica como estagiário me ensinando muita coisa escola
+                    onde dou aula e faço o suporte técnico atualmente. Atuamente trabalhamos juntos em projetos para desenvolvimento
+                    de sites.</p>
+                </div>
+                <div class="col-md-3 mb-5">
+                  <img class="img-circle featurette-image img-fluid mx-auto" src="img/kelvin.jpeg" alt="Generic placeholder image">
+                </div>
               </div>
-              <div class="col-md-5">
-                <img id="img-circle" class="featurette-image img-fluid mx-auto" src="img/kelvin.jpeg" alt="Generic placeholder image">
+              <!-- Div Parceiros Hermano-->
+              <div class="row featurette justify-content-md-center">
+                <div class="col-md-3 mb-5">
+                  <img class="img-circle featurette-image img-fluid mx-auto" src="img/hermano.png" alt="Generic placeholder image">
+                </div>
+                <div class="col-md-7 mb-5">
+                  <h2 class="text-center featurette-heading mb-5">Hermano<span class="text-muted">Lessa.</span></h2>
+                  <p class="text-centerlead-whi">Meu irmão e primeiro mentor na arera da Informática, foi a pessoa que me fez entender
+                    a grande gambiarra,
+                    e a infinidade de coisas que podemos criar nessa area tão abrangente. Hoje compartilhamos clientes tanto para area
+                    de montagem
+                    e manutenção de computadores e também trabalhos Design Gráfico.</p>
+                </div>
               </div>
-            </div>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <div class="row featurette">
-              <div class="col-md-5">
-                <img id="img-circle" class="featurette-image img-fluid mx-auto" src="img/hermano.png" alt="Generic placeholder image">
-              </div>
-              <div class="col-md-7">
-                <h2 class="featurette-heading">Hermano<span class="text-muted">Lessa.</span></h2>
-                <br>
-                <br>
-                <p class="lead-whi">Meu irmão e primeiro mentor na arera da Informática, foi a pessoa que me fez entender a grande gambiarra,
-                e a infinidade de coisas que podemos criar nessa area tão abrangente. Hoje compartilhamos clientes tanto para area de montagem
-                e manutenção de computadores e também trabalhos Design Gráfico.</p>
-              </div>
-            </div>
-            <br>
-            <br>
-            <br>
-            <br>
-            <h1 class="alinhamento-central">Currículo</h1>
-            <br>
-            <embed src="clockblue.pdf" width="760" height="1105" type='application/pdf'>
+              </section>
+              <!-- Currículo -->
+              <div class="row" id="vitae">
+                <h1 class="text-center col-md-12 mb-5">Currículo</h1>
+                <embed class="mx-auto" src="clockblue.pdf" width="760" height="1105" type='application/pdf'>
+             </div>
       </div>
   </body>
 </html>
