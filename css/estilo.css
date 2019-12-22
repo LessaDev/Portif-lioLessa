@@ -1,7 +1,7 @@
 body{
-  background-image: url("../img/FundoSpot.png");
+  background-image: url("../img/FundoSpot.jpg");
   min-height: 500px;
-  background-size: contain;
+  background-size: cover;
   background-attachment: scroll;
   background-repeat: no-repeat;
 }
@@ -11,11 +11,24 @@ body{
     height: 250px;
     background-position: center;
 }
+
+#lessaBrand{
+  font-size: 25px;
+  margin-left: -15px;
+}
+
 #MinhaFoto{
   width: 200px;
   height: 200px;
   background-image: url("../img/teste.jpg");
   background-size: cover;
+}
+#DevFullStack{
+  color: #D3D3D3 !important;
+}
+
+.redesSociaisli{
+  color: #D3D3D3 !important;
 }
 
 #container-conteudo{
@@ -44,4 +57,9 @@ font-size: 20px;
 .imgRedesSocias{
   width: 20px;
   width: 20px;
+}
+
+/*------------------------------ Animações------------------------------------*/
+.linha1Animacao,.linha2Animacao, .linhaDescricao, .animacaoKelvin, .animacaoHermano , .cuAnimado{
+  opacity: 0;
 }

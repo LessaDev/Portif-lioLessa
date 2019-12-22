@@ -3,11 +3,12 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="shortcut icon" href="icon.ico">
+    <link rel="shortcut icon" href="logo.ico">
     <title>Lembrei</title>
 
     <!-- CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
     <link rel="stylesheet" href="css/estilo.css">
 
     <!-- JS -->
@@ -18,14 +19,14 @@
   <body>
       <nav class="navbar fixed-top navbar-expand-lg  navbar-light bg-light" id="NavBar">
         <a class="navbar-brand" href="#">
-          <img src="/docs/4.1/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="">
-          Lessa
+          <img src="img/logo.png" width="40" height="40" class="ml-2 d-inline-block align-top" alt="">
         </a>
+          <span id="lessaBrand" class="pb-2" > Lessa </span>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
+        <div class="collapse navbar-collapse row justify-content-center" id="navbarNavAltMarkup">
+          <div class="navbar-nav col-md-5">
             <a class="nav-item nav-link" href="#Portifolio">Portifólio Designers</a>
             <a class="nav-item nav-link" href="#parceiros">Parceiros</a>
             <a class="nav-item nav-link" href="#pdf">Currículo</a>
@@ -38,13 +39,13 @@
             <div class="row mb-4 text-center" id="DivQuemSouEu">
                   <div class="col-md-12">
                      <img class="img-circle featurette-image mx-auto mb-3 d-block"  src="img/lessa.jpg" alt="Minha foto perfil" id="MinhaFoto">
-                     <h1 class=" text-center featurette-heading">IagoLessa<span class="text-muted"></span><small class="text-muted" id="DevFullStack">  Dev FullStack</small></h1>
-                     <div class="row">
+                     <h1 class=" text-center featurette-heading">IagoLessa<span class="text-muted"></span> <small class="text-muted mb-2" id="DevFullStack"> Dev FullStack</small></h1>
+            <div class="row linhaDescricao">
                        <div class="col-md-12">
                          <ul id="redesSocias">
-                           <li><img class="imgRedesSocias" src="img/github.png" alt="GitHub"><a href=https://github.com/LessaDev>LessaDev</a></li></li>
-                           <li class="ml-2 mr-2"><img class="imgRedesSocias" src="img/linkedin.png" alt="linkedin"><a href=https://www.linkedin.com/in/iago-lessa-648937199>Iago Lessa</li>
-                           <li><img class="imgRedesSocias" src="img/instagram.png" alt="instagram"><a href="https://www.instagram.com/iago.lessa/">iago.lessa</a></li>
+                           <li ><img class="imgRedesSocias" src="img/github.png" alt="GitHub"><a target="_blank" class="redesSociaisli" href=https://github.com/LessaDev>LessaDev</a></li></li>
+                           <li class="ml-2 mr-2"><img class="imgRedesSocias" src="img/linkedin.png" alt="linkedin"><a target="_blank" class="redesSociaisli" href=https://www.linkedin.com/in/iago-lessa-648937199>Iago Lessa</li>
+                           <li><img class="imgRedesSocias" src="img/instagram.png" alt="instagram"><a target="_blank"  class="redesSociaisli" href="https://www.instagram.com/iago.lessa/">iago.lessa</a></li class="redesSociasli">
                          </ul>
                         </div>
                       <hr class="mt-5">
@@ -52,9 +53,6 @@
                         Instrutor de Informática, Designer Gráfico, Aspirante a programador, de 19 anos entusiasta de boa músca, comédias carros
                         e natureza, em busca do foda-se perdido.
                       </p>
-                  </div>
-                    <p><a class=" mx-auto mb-4 cor-button btn btn-secondary" href="#" role="button">Saiba mais do que estou em busca.</a></p>
-              </div>
             </div>
             <!-- Div Portifólio-->
             <div class="text-center row mb-4">
@@ -64,32 +62,32 @@
               </div>
               </div>
             <!-- Div Portifólio 1º Linha-->
-            <div class="row">
-              <div class="col-md-3 col-sm-12 mb-3">
+            <div class="row linha1Animacao">
+              <div class="col-md-3 col-sm-12 mb-3 ">
                   <img class="img-fluid" id="Portifólio-img" src="img/teste.jpg" alt="Generic placeholder image">
               </div>
-              <div class="col-md-3 col-sm-12 mb-3">
+              <div class="col-md-3 col-sm-12 mb-3 ">
                   <img class="img-fluid" id="Portifólio-img" src="img/teste.jpg" alt="Generic placeholder image">
               </div>
-              <div class="col-md-3 col-sm-12 mb-3">
+              <div class="col-md-3 col-sm-12 mb-3 ">
                   <img class="img-fluid" id="Portifólio-img" src="img/teste.jpg" alt="Generic placeholder image">
               </div>
-              <div class="col-md-3 col-sm-12 mb-3">
+              <div class="col-md-3 col-sm-12 mb-3 ">
                   <img class="img-fluid" id="Portifólio-img" src="img/teste.jpg" alt="Generic placeholder image">
               </div>
             </div>
             <!-- Div Portifólio 2º Linha-->
-            <div class="row mb-3">
-              <div class="col-md-3 col-sm-12 mb-3">
+            <div class="row mb-3 linha2Animacao">
+              <div class="col-md-3 col-sm-12 mb-3 ">
                 <img class="img-fluid" id="Portifólio-img" src="img/teste.jpg" alt="Generic placeholder image">
               </div>
-              <div class="col-md-3 col-sm-12 mb-3">
+              <div class="col-md-3 col-sm-12 mb-3 ">
                 <img class="img-fluid" id="Portifólio-img" src="img/teste.jpg" alt="Generic placeholder image">
               </div>
-              <div class="col-md-3 col-sm-12 mb-3">
+              <div class="col-md-3 col-sm-12 mb-3 ">
                 <img class="img-fluid" id="Portifólio-img" src="img/teste.jpg" alt="Generic placeholder image">
               </div>
-              <div class="col-md-3 col-sm-12 mb-5">
+              <div class="col-md-3 col-sm-12 mb-5 ">
                 <img class="img-fluid" id="Portifólio-img" src="img/teste.jpg" alt="Generic placeholder image">
               </div>
             </div>
@@ -97,7 +95,7 @@
             <section class="container-fluid" id="parceiros">
               <h1 id="parceiros" class="text-center mb-5"> Parceiros</h1>
               <!-- Div Parceiros Kelvin-->
-              <div class="row featurette mb-5 justify-content-md-center">
+              <div class="row featurette mb-5 justify-content-md-center AnimacaoKelvin">
                 <div class="col-md-7">
                   <h2 class="text-center featurette-heading mb-5">Kelvin<span class="text-muted">Gonçalves.</span></h2>
                   <p class=" text-center lead-whi mb-4">Além de ter sido meu professor de Web Design, e de Design Gráfico, foi o cara
@@ -112,7 +110,7 @@
                 </div>
               </div>
               <!-- Div Parceiros Hermano-->
-              <div class="row featurette justify-content-md-center">
+              <div class="row featurette justify-content-md-center AnimacaoHermano">
                 <div class="col-md-3 mb-5">
                   <img class="img-circle featurette-image img-fluid mx-auto" src="img/hermano.png" alt="Generic placeholder image">
                 </div>
@@ -127,46 +125,91 @@
               </div>
               </section>
             <!-- PDF -->
-              <div id="pdf" class="row" id="vitae">
-                <h1 class="text-center col-md-12 mb-5">Currículo</h1>
-                <embed class="mx-auto mb-5" src="VitaeLessa.pdf" width="760" height="1105" type='application/pdf'>
+            <div id="pdf" class="row ">
+            <h1 class="text-center col-md-12 mb-5">Currículo</h1>
+            <embed class="mx-auto mb-5 animated fadeIn slower" src="VitaeLessa.pdf" width="760" height="1105" type='application/pdf'>
               </div>
             <!-- contato -->
             <H1 id="contato" class="text-center mb-5">O que posso te ajudar?</H1>
             <div class="row text-center justify-content-md-center">
                <div class="col-md-3">
-                 <div class=" card">
+                 <div class="card card1Animacao">
                    <img src="img/teste.jpg" class="card-img-top" alt="...">
                    <div class="card-body">
                       <h4>Manutenção de Pc</h4>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.
-                      </p>
+                      <p class="card-text">Orçamento para montagem de computadores, manutenções preventivas e corretivas</p>
+                    </div>
+                    <div class="modal fade" id="modalContactForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                      aria-hidden="true">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header text-center">
+                            <h5 class="modal-title w-100 font-weight-bold">Prencha os campos para que eu possa te ajudar.</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body mx-3">
+                            <div class="mb-3">
+                              <i class="fas fa-user prefix grey-text"></i>
+                              <input placeholder="Seu Nome" type="text" id="form34" class="form-control validate">
+                            </div>
+                            <div class="mb-3">
+                              <i class="fas fa-envelope prefix grey-text"></i>
+                              <input placeholder="E-mail" type="email" id="form29" class="form-control validate">
+                            </div>
+                            <div class="mb-3">
+                              <i class="fas fa-tag prefix grey-text"></i>
+                              <input placeholder="Telefone de contato" type="text" id="form32" class="form-control validate">
+                            </div>
+                            <div class="md-form">
+                              <i class="fas fa-pencil prefix grey-text"></i>
+                              <textarea placeholder="Descrição" type="text" id="form8" class="md-textarea form-control" rows="4"></textarea>
+                              </div>
+                          </div>
+                          <div class="modal-footer d-flex justify-content-center">
+                            <button class="btn btn-unique">Enviar <i class="fas fa-paper-plane-o ml-1"></i></button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="text-center">
+                      <a href="" class="btn btn-default btn-rounded mb-4" data-toggle="modal" data-target="#modalContactForm">Solicite seu orçamento</a>
                     </div>
                   </div>
                 </div>
                 <div class="col-md-3">
-                  <div class=" card" >
+                  <div class=" card card2Animacao" >
                     <img src="img/teste.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h4>Web Gráfico</h4>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                        content.
-                      </p>
+                        <h4>Web Designer</h4>
+                      <p class="card-text">Desenvolvimento de sites, ....</p>
+                      <div class="text-center">
+                        <a href="" class="btn btn-default btn-rounded mb-4" data-toggle="modal" data-target="#modalContactForm">Solicite seu orçamento</a>
+                      </div>
                     </div>
                   </div>
                 </div>
                 <div class="col-md-3 mb-5">
-                  <div class=" card">
+                  <div class="card card3Animacao">
                     <img src="img/teste.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h4>Design Gráfico</h4>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                        content.
-                      </p>
+                      <p class="card-text">Criação de logos, Panfletos, Cartões de visitas, Banners, Convites, Adesivos,</p>
+                      </div>
+                      <div class="text-center">
+                        <a href="" class="btn btn-default btn-rounded mb-4" data-toggle="modal" data-target="#modalContactForm">Solicite seu orçamento</a>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
       </div>
   </body>
+  <!-- Javascript -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/script.js"></script>
 </html>
+
+
